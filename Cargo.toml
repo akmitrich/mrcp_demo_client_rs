@@ -1,0 +1,7 @@
+[package]
+name = "mrcp_demo_client_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+uni_lib_client_rs = { path = "../uni_lib_client_rs" }

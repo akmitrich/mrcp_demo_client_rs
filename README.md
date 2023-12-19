@@ -5,3 +5,11 @@ To run it there must be a correct UniMRCP dir layout at `/opt/unimrcp`. Or somew
 
 ## Working example
 No more. Just take a file from the only argument and send it to the MRCP server to recognize speech. All the parameters are hardcoded.
+
+## Build
+The dependency `uni_lib_client_rs` is expected to be in the next directory (look at the path in `Cargo.toml`). But you can rely on https://github.com/akmitrich/uni_lib_client_rs.
+After this
+```
+cargo build
+```
+wil take care of everything else)))

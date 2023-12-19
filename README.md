@@ -12,4 +12,4 @@ After this
 ```
 cargo build
 ```
-wil take care of everything else)))
+will take care of everything else)))
